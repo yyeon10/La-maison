@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La maison</title>
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="shortcur icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/service.js"></script>
+   
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1><a href="index.html"><img src="img/main_logo.png" alt="la maison"></a></h1>
+            <nav>
+                <div>
+                    <a href="brand.html">about</a>
+                    <a href="lookbook.html">lookbook</a>
+                    <a href="event.html">community</a>
+                    <a href="showroom.html">showroom</a>
+                    <div class="sub_menu">
+                        <div>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="burger_menu">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <section class="content_tit">
+            <h2>ABOUT US</h2>
+            <nav>
+                <a href="brand.html" data-num="0">브랜드 소개 </a>
+                <a href="service.html" data-num="1" class="on">서비스 소개 </a>
+                <a href="bi.html" data-num="2">BI</a>
+            </nav>
+        </section>
+        <section class="content_box">
+            <div class="con_text">
+                <p><strong>라 메종</strong>은 전 품목에서 커스터마이즈 서비스(Customize Service)를 제공합니다.</p>
+                <p>‘커스터마이즈’ 라고만 들으면 어려워보일 수 있습니다. 쉽게 말하자면 ‘맞춤’ 서비스 입니다.
+                간단한 작업만 거치면, 마음에 든 디자인의 옷을 몸에 꼭 맞는 편안한 사이즈로 구매하실 수 있습니다.
+                라 메종이 제공하는 서비스를 쉽고, 간단하게 소개합니다.</p>
+            </div>
+            <article class="service_box">
+                <h3>CUSTOMIZE SERVICE</h3>
+                <ul>
+                    <li>
+                        <div>
+                            <img src="img/icon_service1.png">
+                        </div>
+                        <span>01</span>
+                        <em>옷장을 열고 몸에 가장 잘 맞는,
+                        편한 옷을 꺼내보세요.</em>
+                        <p>그리고 그 옷의 목 둘레, 어깨 너비,
+                        가슴 둘레를 측정해주세요.</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img/icon_service2.png">
+                        </div>
+                        <span>02</span>
+                        <em>다음의 질문에 답해주세요.</em>
+                        <p>- 고객님의 키, 몸무게는 어떻게 되시나요?
+                        - 평소 기성복은 어떤 사이즈를 입으시나요?
+                        - 그 사이즈를 입으면서 불편한 점이 있으셨나요?</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img/icon_service3.png">
+                        </div>
+                        <span>03</span>
+                        <em>이제 라 메종이 고객님의 옷을 만듭니다.</em>
+                        <p>만약 더 필요한 정보가 있다면
+                        고객님께 연락을 드릴 수도 있습니다.</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="img/icon_service4.png">
+                        </div>
+                        <span>04</span>
+                        <em>택배로 발송된 옷을 받아보세요.</em>
+                        <p>라 메종의 옷은 주문 후에 제작에 들어갑니다.
+                        따라서 발송까지 일주일 정도 소요됩니다. </p>
+                    </li>
+                </ul>
+            </article>
+            <div class="con_text">
+                <p>또한 <strong>라 메종</strong>은 측정을 전문가에게 맡기고 싶으신 고객님들을 위해 <em>오프라인 쇼룸(Showroom)</em>을 운영하고 있습니다</p>
+                <p>위의 과정이 어렵게 느껴지시거나, 혹시라도 몸에 맞지 않는 옷을 받게 될까 불안하신 고객님들을 위해
+                직접 방문하실 수 있는 쇼룸을 운영하고 있습니다.
+                대기가 길어지는 것을 방지하기 위하여 쇼룸은 <em>완전 예약제</em>로 운영되고 있습니다.
+                02-0000-0000로 전화 주시거나, 온라인으로 예약을 하실 수 있습니다.</p>
+                <a href="reservation.html" data-num="1">
+                    <span>쇼룸 방문 예약하기</span>
+                    <span><img src="img/icon_arrow_b.png"></span>
+                </a>
+            </div>
+            <div class="map">
+                <!-- * 카카오맵 - 지도퍼가기 -->
+                <!-- 1. 지도 노드 -->
+                <div id="daumRoughmapContainer1590819243008" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                <!--
+                    2. 설치 스크립트
+                    * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                -->
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                <!-- 3. 실행 스크립트 -->
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp" : "1590819243008",
+                        "key" : "ykvg",
+                        "mapWidth" : "1920",
+                        "mapHeight" : "800"
+                    }).render();
+                </script>
+            </div>
+        </section>
+        <aside>
+            <div>
+                <span>
+                    <img src="img/icon_top.png">
+                </span>
+                <span>
+                    TOP
+                </span>
+            </div>
+        </aside>
+        <footer>
+            <h2><img src="img/sub_logo.png" alt="la maison"></h2>
+            <ul>
+                <li>
+                    <small>Customer Support</small>
+                    <em>02.000.0000</em>
+                </li>
+                <li>
+                    <small>contact us</small>
+                    <div class="sns_icon">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </li>
+                <li>
+                    Copyright 2020. La maison  All rights reservesd.
+                </li>
+            </ul>
+        </footer>
+    </div>
+    
+</body>
+
+</html>

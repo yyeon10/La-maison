@@ -25,3 +25,6 @@ small {
     display: inline-block;
 }
 
+p {
+    white-space: pre-line;
+}

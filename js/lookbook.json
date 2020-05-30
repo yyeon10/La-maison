@@ -1,0 +1,124 @@
+{
+    
+    "lookbook":[
+        {
+            "name": "HEROINE"
+            , "season": "2020 SUMMER"
+            , "thum" : "img/thum_1.jpg"
+            , "img1" : "img/HEROINE_1.jpg"
+            , "img2" : "img/HEROINE_2.jpg"
+            , "img3" : "img/HEROINE_3.jpg"
+            , "img4" : "img/HEROINE_4.jpg"
+            , "img5" : "img/HEROINE_5.jpg"
+            , "img6" : "img/HEROINE_6.jpg"
+            , "img7" : "img/HEROINE_7.jpg"
+            , "link" : "https://www.29cm.co.kr/list/lookbook/2821"
+        },
+        {
+            "name": "LEMAZI"
+            , "season": "2020 SUMMER"
+            , "thum" : "img/thum_2.jpg"
+            , "img1" : "img/LEMAZI_1.jpg"
+            , "img2" : "img/LEMAZI_2.jpg"
+            , "img3" : "img/LEMAZI_3.jpg"
+            , "img4" : "img/LEMAZI_4.jpg"
+            , "img5" : "img/LEMAZI_5.jpg"
+            , "img6" : "img/LEMAZI_6.jpg"
+            , "img7" : "img/LEMAZI_7.jpg"
+            , "link" : "https://www.29cm.co.kr/list/lookbook/2806"
+        },
+        {
+            "name": "OFT"
+            , "season": "2020 SUMMER"
+            , "thum" : "img/thum_3.jpg"
+            , "img1" : "img/OFT_1.jpg"
+            , "img2" : "img/OFT_2.jpg"
+            , "img3" : "img/OFT_3.jpg"
+            , "img4" : "img/OFT_4.jpg"
+            , "img5" : "img/OFT_5.jpg"
+            , "img6" : "img/OFT_6.jpg"
+            , "img7" : "img/OFT_7.jpg"
+            , "link" : "https://www.29cm.co.kr/list/lookbook/2799"
+        },
+        {
+            "name": "THE STUDIO K"
+            , "season": "2020 S/S"
+            , "thum" : "img/thum_4.jpg"
+            , "img1" : "img/THESTUDIOK_1.jpg"
+            , "img2" : "img/THESTUDIOK_2.jpg"
+            , "img3" : "img/THESTUDIOK_3.jpg"
+            , "img4" : "img/THESTUDIOK_4.jpg"
+            , "img5" : "img/THESTUDIOK_5.jpg"
+            , "img6" : "img/THESTUDIOK_6.jpg"
+            , "img7" : "img/THESTUDIOK_7.jpg"
+            , "link" : "http://thestudiok.com/"
+        },
+        {
+            "name": "The Loom"
+            , "season": "2020 SUMMER"
+            , "thum" : "img/thum_5.jpg"
+            , "img1" : "img/TheLoom_1.jpg"
+            , "img2" : "img/TheLoom_2.jpg"
+            , "img3" : "img/TheLoom_3.jpg"
+            , "img4" : "img/TheLoom_4.jpg"
+            , "img5" : "img/TheLoom_5.jpg"
+            , "img6" : "img/TheLoom_6.jpg"
+            , "img7" : "img/TheLoom_7.jpg"
+            , "link" : "https://www.29cm.co.kr/list/lookbook/2812"
+        },
+        {
+            "name": "Hei"
+            , "season": "2020 S/S"
+            , "thum" : "img/thum_6.jpg"
+            , "img1" : "img/Hei_1.jpg"
+            , "img2" : "img/Hei_2.jpg"
+            , "img3" : "img/Hei_3.jpg"
+            , "img4" : "img/Hei_4.jpg"
+            , "img5" : "img/Hei_5.jpg"
+            , "img6" : "img/Hei_6.jpg"
+            , "img7" : "img/Hei_7.jpg"
+            , "link" : "https://www.29cm.co.kr/list/lookbook/2825"
+        },
+        {
+            "name": "initial"
+            , "season": "2019 WINTER"
+            , "thum" : "img/thum_7.jpg"
+            , "img1" : "img/initial_1.jpg"
+            , "img2" : "img/initial_2.jpg"
+            , "img3" : "img/initial_3.jpg"
+            , "img4" : "img/initial_4.jpg"
+            , "img5" : "img/initial_5.jpg"
+            , "img6" : "img/initial_6.jpg"
+            , "img7" : "img/initial_7.jpg"
+            , "link" : "http://www.initialfashion.com/en/"
+        },
+        {
+            "name": "UNIQLO U"
+            , "season": "2020 F/W"
+            , "thum" : "img/thum_8.jpg"
+            , "img1" : "img/UNIQLOU_1.jpg"
+            , "img2" : "img/UNIQLOU_2.jpg"
+            , "img3" : "img/UNIQLOU_3.jpg"
+            , "img4" : "img/UNIQLOU_4.jpg"
+            , "img5" : "img/UNIQLOU_5.jpg"
+            , "img6" : "img/UNIQLOU_6.jpg"
+            , "img7" : "img/UNIQLOU_7.jpg"
+            , "link" : "https://www.uniqlo.com/UniqloU19fw/au/lookbook/"
+        },
+        {
+            "name": "Rookie-Bud"
+            , "season": "2019 S/S"
+            , "thum" : "img/thum_9.jpg"
+            , "img1" : "img/RookieBud_1.jpg"
+            , "img2" : "img/RookieBud_2.jpg"
+            , "img3" : "img/RookieBud_3.jpg"
+            , "img4" : "img/RookieBud_4.jpg"
+            , "img5" : "img/RookieBud_5.jpg"
+            , "img6" : "img/RookieBud_6.jpg"
+            , "img7" : "img/RookieBud_7.jpg"
+            , "link" : "http://rookiebud.com/index.html"
+        }
+        
+    ]
+    
+}

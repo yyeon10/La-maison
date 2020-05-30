@@ -86,6 +86,7 @@ header nav div > a:hover {
 
 header nav > div > a:after {
     content: '';
+    position: relative;
     display: block;
     width: 106%;
     height: 18px;
@@ -95,7 +96,6 @@ header nav > div > a:after {
     visibility: hidden;
     opacity: 0;
     transition: .5s;
-    position: relative;
     z-index: -1;
 }
 
@@ -115,8 +115,8 @@ header nav div .sub_menu {
 }
 
 header nav div .sub_menu div {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -129,7 +129,7 @@ header nav div .sub_menu span {
     top: 22px;
     left: 0;
     width: 100%;
-    height: 3px;
+    height: 2px;
     background: #ccc;
 }
 
@@ -176,8 +176,8 @@ header .burger_menu {
 }
 
 header .burger_menu div {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -187,7 +187,7 @@ header .burger_menu div {
 
 header .burger_menu span {
     width: 100%;
-    height: 3px;
+    height: 2px;
     background: #ccc;
     position: absolute;
     left: 0;
@@ -199,12 +199,12 @@ header .burger_menu span:nth-of-type(1) {
 }
 
 header .burger_menu span:nth-of-type(2) {
-    top: 20px;
+    top: 15px;
     width: 80%;
 }
 
 header .burger_menu span:nth-of-type(3) {
-    top: 35px;
+    top: 25px;
 }
 
 .content_box {
@@ -729,7 +729,7 @@ footer {
     bottom: 0;
     left: 0;
     background: #fff;
-    padding: 0 420px 0 350px;
+    padding: 0 23% 0 18%;
     display: flex;
     align-items: center;
     justify-content: space-between;
