@@ -28,3 +28,9 @@ small {
 p {
     white-space: pre-line;
 }
+
+aside.active {
+    position: absolute;
+    bottom: 200px;
+    right: 0;
+}

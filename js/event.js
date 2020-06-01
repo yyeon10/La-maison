@@ -1,23 +1,15 @@
 $(function(){
 //start
-    //헤더 스크롤 이벤트
     
-    var scrollTop = '';
-    var lastScroll = 0;
-    var sort='';
-    
-    $(window).on('scroll', function(e){
-         
-        headerMove();
-
-    });
+    var sort;
     
     $('.con_nav a').on('click', function(){
         $(this).addClass('on')
         .siblings().removeClass('on');
     })
     
-    $('.con_nav a').eq(2).on('click', function(){
+    $('.con_nav a').eq(2).on('click', function(e){
+        e.preventDefault();
         $('.content_box > ul').html('');
         $('.content_box .prize').show();
     })
@@ -32,7 +24,8 @@ $(function(){
         , dataType: 'json'
         , success : function(data){
             event($(data))
-            $('.con_nav a').not(':last').on('click', function(){
+            $('.con_nav a').not(':last').on('click', function(e){
+                e.preventDefault();
                 $('.content_box > ul').html('');
                 $('.content_box .prize').hide();
                 sort = $(this).data('sort');
@@ -60,20 +53,6 @@ $(function(){
             }
         }
     }
-    
-    function headerMove(){
-        scrollTop = $(window).scrollTop()
-             if(scrollTop > lastScroll){
-                $('header').addClass('up');
-                $('header .burger_menu ').addClass('up');
-             } else {
-                $('header').removeClass('up');
-                $('header .burger_menu ').removeClass('up');
-             }
-
-        lastScroll = scrollTop
-    }
-    
     
 //end
 })

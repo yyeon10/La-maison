@@ -40,9 +40,9 @@ header nav.on {
 
 header nav > div {
     width: 1000px;
-    height: 100%;
+    height: 100vh;
     float: right;
-    border-top: 1080px solid #fff;
+    border-top: 1090px solid #fff;
     border-left: 180px solid transparent;
     margin-right: -1500px;
     transition: .5s;
@@ -55,10 +55,10 @@ header nav > div.on {
 header nav > div > a {
     position: absolute;
     top: 0;
-    left: 60vw;
+    left: 63vw;
     display: block;
     font-family: 'DM Serif Display', serif;
-    font-size: 2.778em;
+    font-size: 3em;
     text-transform: uppercase;
     opacity: 0;
     transition: .7s;
@@ -70,19 +70,19 @@ header nav > div.on > a {
 }
 
 header nav > div > a:nth-of-type(1) {
-    top: 270px;
+    top: 330px;
 }
 
 header nav > div > a:nth-of-type(2) {
-    top: 370px;
+    top: 430px;
 }
 
 header nav > div > a:nth-of-type(3) {
-    top: 470px;
+    top: 530px;
 }
 
 header nav > div > a:nth-of-type(4) {
-    top: 570px;
+    top: 630px;
 }
 
 header nav div > a.on,
@@ -260,7 +260,7 @@ header .burger_menu span:nth-of-type(3) {
     display: none;
 }
 
-.content_box {}
+.content_box {font-size: 0;}
 
 .content_box .con_text {
     padding: 0 210px;
@@ -377,7 +377,7 @@ header .burger_menu span:nth-of-type(3) {
     font-weight: bold;
 }
 
-.content_box > span {width: 100%;}
+.content_box > span {width: 100%; font-size: 0;}
 .content_box > span img {width: 100%;}
 
 aside {
@@ -389,6 +389,12 @@ aside {
     height: 90px;
     cursor: pointer;
     z-index: 50;
+}
+
+aside.active {
+    position: absolute;
+    bottom: 200px;
+    right: 0;
 }
 
 aside div{
