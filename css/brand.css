@@ -391,12 +391,6 @@ aside {
     z-index: 50;
 }
 
-aside.active {
-    position: absolute;
-    bottom: 200px;
-    right: 0;
-}
-
 aside div{
     width: 100%;
     height: 100%;
