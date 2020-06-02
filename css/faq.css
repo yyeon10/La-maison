@@ -262,8 +262,8 @@ header .burger_menu span:nth-of-type(3) {
 .content_box {}
 
 .content_box .con_nav {
-    width: 85%;
-    margin: 0 auto 100px;
+    width: 70%;
+    margin: 0 auto;
     text-align: center;
     border-bottom: 2px solid #ddd;
 }
@@ -297,59 +297,13 @@ header .burger_menu span:nth-of-type(3) {
     opacity: 1;
 }
 
-.content_box > ul {
-    width: 85%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 70px;
+
+.content_box ul {
+    width: 70%;
+    margin: 0 auto 120px;
 }
 
-.content_box > ul li {
-    cursor: pointer;
-    width: 48%;
-    margin-bottom: 60px;
-}
-
-.content_box ul li figure {}
-
-.content_box ul li figure img {}
-
-.content_box ul li figure figcaption {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.content_box ul li figure figcaption strong {
-    padding: 35px 0 15px;
-    font-size: 1.2em;
-    color: #333;
-}
-
-.content_box ul li figure figcaption span {
-    padding-bottom: 20px;
-    color: #999;
-}
-
-.content_box ul li figure figcaption small {
-    color: #0f4c82;
-    font-size: 0.833em;
-}
-
-.content_box .prize {
-    display: none;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.content_box .prize ul {
-    margin-bottom: 100px;
-    margin-top: -70px;
-}
-
-.content_box .prize ul li {
+.content_box ul li {
     width: 100%;
     padding: 25px 50px;
     border-bottom: 1px solid #ddd;
@@ -358,23 +312,48 @@ header .burger_menu span:nth-of-type(3) {
     transition: .5s;
 }
 
-.content_box .prize ul li.on {
+.content_box ul li.on {
     background: #f5f5f5 url(../img/icon_up.png) no-repeat right 50px top 32px;
 }
 
-.content_box .prize ul li:nth-of-type(1) {
-    border-top: 1px solid #ddd;
-}
-
-.content_box .prize ul li div {
-    display: none;
+.content_box ul li div {
     background: #fff;
     white-space: pre-line;
     padding: 50px;
     font-size: 0.9em;
-    line-height: 1.5em;
     margin-top: 25px;
     margin-bottom: 10px;
+    display: none;
+    overflow: hidden;
+}
+
+.content_box ul li div em {
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 20px;
+    line-height: 2em;
+    float: left;
+}
+
+.content_box ul li div p {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2em;
+    float: right;
+}
+
+.content_box ul li div p a {
+    display: block;
+    margin-top: 30px;
+    font-size: 0.85em;
+}
+
+.content_box ul li div p:hover a {
+    text-decoration: underline;
+}
+
+.content_box ul li strong {
+    margin-right: 20px;
 }
 
 

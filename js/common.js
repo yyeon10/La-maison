@@ -35,7 +35,6 @@ $(function(){
     //aside
     $(window).on('scroll', function(){
         var footTop = $('footer').offset().top - $(window).innerHeight();
-        console.log(footTop)
         if(footTop < $(window).scrollTop()){
             $('aside').addClass('active');
         } else {
