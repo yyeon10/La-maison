@@ -324,7 +324,6 @@ header .burger_menu span:nth-of-type(3) {
     margin-top: 25px;
     margin-bottom: 10px;
     display: none;
-    overflow: hidden;
 }
 
 .content_box ul li div em {
@@ -332,14 +331,12 @@ header .burger_menu span:nth-of-type(3) {
     font-weight: bold;
     margin-right: 20px;
     line-height: 2em;
-    float: left;
 }
 
 .content_box ul li div p {
     display: inline-block;
     vertical-align: top;
     line-height: 2em;
-    float: right;
 }
 
 .content_box ul li div p a {
