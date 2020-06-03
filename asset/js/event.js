@@ -20,7 +20,7 @@ $(function(){
     })
     
     $.ajax({
-        url: 'js/event.json'
+        url: 'asset/js/event.json'
         , dataType: 'json'
         , success : function(data){
             event($(data))

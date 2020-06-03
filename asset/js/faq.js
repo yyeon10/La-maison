@@ -17,7 +17,7 @@ $(function(){
     
     
     $.ajax({
-        url: 'js/faq.json'
+        url: 'asset/js/faq.json'
         , dataType: 'json'
         , success : function(data){
             faq($(data))

@@ -4,7 +4,7 @@ $(function(){
     var idx = 0;
     
     $.ajax({
-        url: 'js/lookbook.json'
+        url: 'asset/js/lookbook.json'
         , dataType: 'json'
         , success: function (data) {
             lookbook($(data));

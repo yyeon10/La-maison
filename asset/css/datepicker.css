@@ -223,6 +223,6 @@ li[data-view="month next"],
 }
 
 ul[data-view="week"] > li {
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-family: 'Nanum Gothic', sans-serif;
 }
