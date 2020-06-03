@@ -1,4 +1,5 @@
 @import url(common.css);
+
 .wrap {
     width: 100%;
     position: relative;
@@ -79,7 +80,6 @@ header nav > div > a:nth-of-type(4) {
     top: 630px;
 }
 
-
 header nav div > a.on,
 header nav div > a:hover {
     color: #0f4c82;
@@ -112,7 +112,6 @@ header nav div .sub_menu {
     top: 0;
     right: 0;
     background: #0f4c82;
-    
 }
 
 header nav div .sub_menu div {
@@ -368,9 +367,7 @@ header .burger_menu span:nth-of-type(3) {
     overflow: hidden;
 }
 
-.con_about .about_detail li figure img {
-
-}
+.con_about .about_detail li figure img {}
 
 .con_about .about_detail li figure figcaption {
     padding: 0 200px;
@@ -503,7 +500,10 @@ header .burger_menu span:nth-of-type(3) {
     overflow: hidden;
 }
 
-.con_collect .img_box ul {display: flex; margin-left: -722px;}
+.con_collect .img_box ul {
+    display: flex;
+    margin-left: -722px;
+}
 
 .con_collect .img_box ul li {}
 
@@ -765,7 +765,7 @@ footer ul li small {
     padding-bottom: 5px;
 }
 
-footer ul li:nth-of-type(2) small{
+footer ul li:nth-of-type(2) small {
     padding: 10px;
 }
 
@@ -777,7 +777,12 @@ footer ul li em {
 
 footer ul li div {}
 
-footer ul li a {width: 25px; height: 25px; margin: 0 5px;}
+footer ul li a {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
+
 footer ul li a:nth-of-type(1) {
     background: url(../img/icon_sns_h.png) no-repeat left 5px center;
 }

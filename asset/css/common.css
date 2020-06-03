@@ -7,6 +7,33 @@
     box-sizing: border-box;
 }
 
+.explore {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+}
+
+.explore div {
+    color: inherit;
+}
+
+.explore a {
+    color: inherit;
+    font-weight: bold;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+.wrap {
+    min-width: 1900px
+}
+
 ul,
 li {
     list-style-type: none;

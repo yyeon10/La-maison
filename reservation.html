@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>La maison</title>
     <link rel="stylesheet" href="asset/css/reservation.css">
+    <link  href="asset/css/datepicker.css" rel="stylesheet">
+
     <link rel="shortcur icon" href="asset/img/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nanum+Gothic:wght@400;700&display=swap&family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="asset/js/common.js"></script>
     <script src="asset/js/reservation.js"></script>
+    <script src="asset/js/datepicker.js"></script>
    
 </head>
 
@@ -47,8 +50,8 @@
         <section class="content_tit">
             <h2>SHOWROOM</h2>
             <nav>
-                <a href="event.html" data-num="0" class="on">오시는 길 </a>
-                <a href="faq.html" data-num="1">방문 예약</a>
+                <a href="event.html" data-num="0">오시는 길 </a>
+                <a href="faq.html" data-num="1" class="on">방문 예약</a>
             </nav>
         </section>
         <section class="content_box">
@@ -56,12 +59,31 @@
                 <span><img src="asset/img/reserv_img.jpg"></span>
                 <div class="form">
                     <h2>Reservation Form .</h2>
-                    <form action="">
+                    <form id="reservation">
                         <input type="text" name="name" placeholder="이름">
                         <input type="text" name="tel" placeholder="연락처">
-                        <input type="text" name="date" placeholder="방문 날짜">
-                        <input type="text" name="time" placeholder="방문 시간">
+                        <input data-toggle="datepicker" name="date" placeholder="방문 날짜" readonly>
+                        <input type="text" name="time" placeholder="방문 시간" readonly>
+                        <input type="submit" id="submit" value="예약하기">
                     </form>
+                    <ul class="time_select">
+                        <li>
+                            <em>AM</em>
+                            <span>10 : 00</span>
+                            <span>11 : 00</span>
+                        </li>
+                        <li>
+                            <em>PM</em>
+                            <span>13 : 00</span>
+                            <span>14 : 00</span>
+                            <span>15 : 00</span>
+                            <span>16 : 00</span>
+                            <span>17 : 00</span>
+                            <span>18 : 00</span>
+                        </li>
+                        <li>* <small>예약은 한시간 단위로 이루어지며, 12시~13시까지는
+                        점심시간입니다.</small></li>
+                    </ul>
                 </div>
             </div>
         </section>

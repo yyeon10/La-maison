@@ -259,8 +259,125 @@ header .burger_menu span:nth-of-type(3) {
     display: none;
 }
 
-.content_box {padding: 0 210px;}
+.content_box {padding: 0 210px; margin-bottom: 120px;}
 
+.content_box .reservation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_box .reservation .form {
+    padding-left: 80px;
+    position: relative;
+}
+
+.content_box .reservation .form h2 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 2.778em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.content_box .reservation .form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.content_box .reservation input {
+    width: 330px;
+    padding: 20px;
+    outline-style: none;
+    border: none;
+    border-bottom: 1px solid #999;
+    margin-bottom: 30px;
+}
+
+.content_box .reservation input::placeholder {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #999;
+}
+
+.content_box .reservation  [name="tel"],
+.content_box .reservation input[name="date"],
+.content_box .reservation input[name="time"] {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_box .reservation input[type='submit'] {
+    border: none;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.content_box .reservation .time_select {
+    width: 330px;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+}
+
+.content_box .reservation .time_select li {
+    margin-bottom: 20px;
+}
+
+.content_box .reservation .time_select li em, 
+.content_box .reservation .time_select li span {
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+}
+
+.content_box .reservation .time_select li em{
+    font-style: normal;
+    padding: 0 5px;
+}
+
+.content_box .reservation .time_select li span {
+    cursor: pointer;
+    border: 1px solid #999;
+    width: 85px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 6px 3px;
+}
+
+.content_box .reservation .time_select li span:hover {
+    border: 1px solid #0f4c82;
+    color: #0f4c82;
+}
+
+.content_box .reservation .time_select li span.on {
+    background: #0f4c82;
+    border: 1px solid #0f4c82;
+    color: #fff;
+}
+
+.content_box .reservation .time_select li:nth-of-type(2) span:nth-of-type(4) {
+    margin-left: 48px;
+}
+
+.content_box .reservation .time_select li:nth-of-type(3) {
+    font-size: 0.7em;
+    color: #999;
+    
+    line-height: 1.5em;
+}
+
+.content_box .reservation .time_select li small {
+    font-size: 1em;
+    color: #999;
+    white-space: pre-line;
+    line-height: 1.5em;
+    vertical-align: top;
+    padding-left: 10px;
+}
 
 aside {
     position: fixed;
