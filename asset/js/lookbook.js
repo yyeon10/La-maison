@@ -37,7 +37,7 @@ $(function(){
                 li += "<li>"+figure+"</li>"
             
                 if(i==j){
-                   gallery = "<ul>"+img+"</ul><span>위 사진의 저작권은 "+name+"에 있으며, 더 많은 사진은 <a href="+key.link+" target='_blank'>여기</a>에서 보실 수 있습니다.</span><span class='prev'><img src='img/icon_prev.png' alt='prev'></span><span class='next'><img src='img/icon_next.png' alt='next'></span>";
+                   gallery = "<ul>"+img+"</ul><span>위 사진의 저작권은 "+name+"에 있으며, 더 많은 사진은 <a href="+key.link+" target='_blank'>여기</a>에서 보실 수 있습니다.</span><span class='prev'><img src='asset/img/icon_prev.png' alt='prev'></span><span class='next'><img src='asset/img/icon_next.png' alt='next'></span>";
                 }
                 $('.gallery').html(gallery);
         }
