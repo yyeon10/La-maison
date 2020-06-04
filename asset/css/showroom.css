@@ -1,5 +1,4 @@
 @import url(common.css);
-
 .wrap {
     width: 100%;
     position: relative;
@@ -84,7 +83,6 @@ header nav > div > a:nth-of-type(3) {
 header nav > div > a:nth-of-type(4) {
     top: 630px;
 }
-
 
 header nav div > a.on,
 header nav div > a:hover {
@@ -259,8 +257,66 @@ header .burger_menu span:nth-of-type(3) {
     display: none;
 }
 
-.content_box {padding: 0 210px;}
+.content_box {
+    width: 100%;
+}
 
+.content_box .map {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 100px 0;
+}
+
+.content_box .map img {
+    width: 1000px;
+}
+
+.content_box .root {
+    width: 100%;
+    padding: 100px 300px;
+    background: #f5f5f5;
+}
+
+.content_box .root strong {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.content_box .root strong:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 50px;
+    background: #0f4c82;
+    margin: 20px 0 45px;
+}
+
+.content_box .root em {
+    font-style: normal;
+    font-weight: bold;
+    margin: 0 20px 0 15px;
+    line-height: 1.5em;
+}
+
+
+.content_box .root span {
+    white-space: pre-line;
+    line-height: 1.5em;
+}
+
+.content_box .root .subway {
+    margin-bottom: 90px;
+}
+
+.content_box .root li {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.content_box .root li div {
+    position: relative;
+    top: 3px;
+}
 
 aside {
     position: fixed;

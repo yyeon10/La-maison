@@ -4,9 +4,9 @@
     session_start();
     
     $host = 'localhost';
-    $db_user = 'root';
-    $db_password = '';
-    $db_name = 'bluespade'; //user db
+    $db_user = 'bluespade303';
+    $db_password = 'yy85760525*';
+    $db_name = 'bluespade303'; //user db
 
     $db_con = new mysqli($host, $db_user, $db_password, $db_name);
     function mq($sql){
