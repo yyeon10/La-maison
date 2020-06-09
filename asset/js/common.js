@@ -5,7 +5,15 @@ $(function(){
 
     if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) {
         
-        var text = "<div class='explore'><div>이 사이트는 크롬 브라우저에 최적화되어있습니다.</div><div>크롬 브라우저로 실행하거나<a href='https://www.google.com/intl/ko/chrome/'>여기</a>에서 브라우저를 다운 받아주세요.</div></div>"
+        var text = "<div class='explore'><div>이 사이트는 크롬 브라우저 및 해상도 1920*1080에 최적화되어있습니다.</div><div>크롬 브라우저로 실행하거나<a href='https://www.google.com/intl/ko/chrome/'>여기</a>에서 브라우저를 다운 받아주세요.</div></div>"
+        $('.wrap').hide();
+        $('body').html(text);
+
+    }
+    
+    if(navigator.userAgent.match(/Android|Mobile|iP(hone|od|ad)|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/)){
+
+        var text = "<div class='explore'><div>이 사이트는 크롬 브라우저 및 해상도 1920*1080에 최적화되어있습니다.</div><div>크롬 브라우저로 실행하거나<a href='https://www.google.com/intl/ko/chrome/'>여기</a>에서 브라우저를 다운 받아주세요.</div></div>"
         $('.wrap').hide();
         $('body').html(text);
 

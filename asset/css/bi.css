@@ -41,8 +41,8 @@ header nav > div {
     width: 1000px;
     height: 100vh;
     float: right;
-    border-top: 1090px solid #fff;
-    border-left: 180px solid transparent;
+    border-top: 100vh solid #fff;
+    border-left: 10vw solid transparent;
     margin-right: -1500px;
     transition: .5s;
 }
@@ -262,7 +262,7 @@ header .burger_menu span:nth-of-type(3) {
 
 .content_box .con_text p:nth-of-type(1) {
     font-size: 1.3em;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 .content_box .con_text p:nth-of-type(2) {}
@@ -279,127 +279,18 @@ header .burger_menu span:nth-of-type(3) {
     font-weight: bold;
 }
 
-.content_box > div:nth-of-type(2) {
+.content_box > div:nth-of-type(3) {
     text-align: right;
     margin-top: 120px;
 }
 
-.content_box .con_text a {
-    font-weight: bold;
-    margin-top: 60px;
-}
-
-.content_box .con_text a span:nth-of-type(1) {
-    color: #0f4c82;
-    padding-right: 15px;
-}
-
-.content_box .con_text a span img {
-    position: relative;
-    bottom: 3px;
-    left: 0;
-    transition: .3s;
-}
-
-.content_box .con_text a:hover span img {
-    left: -5px;
-}
-
-.content_box .con_text a span:nth-of-type(2):after {
-    content: '';
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border: 2px solid #0f4c82;
-    position: relative;
-    top: 5px;
-    right: 17px;
-}
-
-.content_box .service_box {
+.content_box .bi_img {
     width: 100%;
-    height: 800px;
-    background: #82a0bb;
-    padding: 80px 160px;
-}
-
-.content_box .service_box h3 {
-    text-align: center;
-    color: #fff;
-    font-family: 'DM Serif Display', serif;
-    font-weight: normal;
-    font-size: 2.778em;
-    margin-bottom: 60px;
-}
-
-.content_box .service_box ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.content_box .service_box ul li {
-    width: 350px;
-    height: 500px;
-    background: #fff;
-    border-radius: 20px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.content_box .service_box ul li div {
-    width: 100%;
-    height: 50%;
-    background: #dfe8f0;
-    border-radius: 20px;
+    height: 721px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.content_box .service_box ul li div img {}
-
-.content_box .service_box ul li span {
-    color: #ccc;
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.667em;
-    font-style: italic;
-    margin-top: 35px;
-}
-
-.content_box .service_box ul li em {
-    white-space: pre-line;
-    font-size: 0.889em;
-    text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    color: #0f4c82;
-    padding: 20px;
-}
-
-.content_box .service_box ul li p {
-    white-space: pre-line;
-    text-align: center;
-    font-size: 0.833em;
-    line-height: 1.5em;
-}
-
-.content_box .service_box ul li p {}
-
-.content_box .map {
-    width: 100%;
-    height: 800px;
-    overflow: hidden;
-}
-
-.content_box .map > div {
-    width: 100% !important;
-}
-
-.content_box .map .txt {
-    font-size: 1.2em;
-    color: #666 !important;
+    background: url(../img/bi_pattern.png)
 }
 
 aside {
