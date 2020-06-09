@@ -36,6 +36,7 @@ header nav.on {
 header nav > div {
     width: 1000px;
     height: 100vh;
+    max-height: 1100px;
     float: right;
     border-top: 1090px solid #fff;
     border-left: 180px solid transparent;
@@ -53,6 +54,7 @@ header nav > div .menu_nav {
     right: 0;
     width: 650px;
     height: 100%;
+    max-height: 1100px;
     z-index: 5;
     display: flex;
     flex-direction: column;
@@ -213,7 +215,7 @@ header .burger_menu span:nth-of-type(3) {
     left: 50px;
     transform: translateY(-50%);
     width: 20px;
-    z-index: 50;
+    z-index: 30;
 }
 
 .con_indi span {
